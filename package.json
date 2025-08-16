@@ -1,0 +1,46 @@
+{
+  "name": "fairhold",
+  "version": "1.0.0",
+  "description": "Fair escrow system for weddings and rentals",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "seed": "hardhat run scripts/seed.js --network localhost",
+    "demo": "hardhat run scripts/demo.js --network localhost"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "ethers": "^6.8.1",
+    "viem": "^1.19.9",
+    "wagmi": "^1.4.7",
+    "lucide-react": "^0.294.0",
+    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "framer-motion": "^10.16.16",
+    "qrcode": "^1.5.3",
+    "react-qr-code": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.1",
+    "@openzeppelin/contracts": "^5.0.0",
+    "chai": "^4.3.10",
+    "solidity-coverage": "^0.8.5"
+  }
+}
